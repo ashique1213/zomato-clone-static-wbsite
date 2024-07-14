@@ -1,0 +1,383 @@
+*{
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    margin:0 ;
+    width: 100%;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.header{
+    position: relative;
+}
+
+.container{
+    position: relative;
+    width:100%;
+    height: 450px;
+    overflow: hidden;
+}
+.container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+}
+
+
+.navbar{
+    position: absolute;
+    top:0;
+    width: 80%;
+    margin-left: 10%;
+    color: white;
+    font-weight: 550;
+}
+.containernav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoContainer{
+    display: flex;
+    align-items: center;
+}
+.logoContainer p{
+    padding: 5px;
+}
+
+.navbar ul{
+    list-style:none;
+    display:flex ;
+}
+.navbar ul li{
+    padding: 0px 3px;
+    margin-right: 25px;
+    font-size: 20px;
+    font-weight: 200;
+}
+.navbar ul li a{
+    color: inherit;
+    text-decoration: none;
+}
+
+
+.zzlogo{
+    width: 300px;
+}
+
+.header-body p{
+    font-size: 40px;
+    font-weight: 100;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+    flex-direction: column;
+}
+header-body{
+    position: relative;
+    margin-top: 20px;
+}
+
+.search{
+    margin-left: 1px;
+    background-color: white;
+    width: 100%;
+    max-width: 750px;
+    height: 55px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 11px;
+    color: black;
+}
+.loc{
+    color: rgb(241, 84, 84);
+    font-size: 22px;  
+}
+.line{
+    /* padding: 10px; */
+    margin: 10px;
+    font-size: 25px;
+    font-weight: 1;
+    color: #696969;
+}
+.fa-caret-up {
+    color: rgb(55, 52, 52);
+}
+.location input{
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    width: 190px;
+
+}
+.searchcontent{
+    color: #696969;
+}
+.searchcontent input{
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    width: 400px;
+    max-width: 100%;
+}
+
+
+
+.feature{
+    margin-top: 30px;
+    margin-left: 10%;
+}
+.containerfeature{
+    display: flex;
+    justify-content: space-between;
+}
+.features{
+    overflow: hidden;
+    border-radius: 20px;
+    border: 1px solid rgb(222, 216, 216) ;
+
+}
+.fetimage{
+    height: 180px;
+    overflow: hidden;
+
+}
+.fetimage img{
+    width: 580px;
+    border-radius: 20px;
+    background-position: 200px;
+}
+.features h3,
+.features p{
+    padding-left: 30px;
+}
+
+
+
+.place{
+    margin: 50px 10%;
+}
+.place h1{
+    font-size: 40px;
+    font-weight: 10;
+}
+.place h3{
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin: 0;
+}
+.place p{
+    font-size: 16px;
+    margin-top: 0;
+}
+.places{
+    display: flex;
+    justify-content: space-between;
+    max-width: 350px;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 8px 15px;
+    height: 79px;
+    width: 400px;
+    margin-bottom: 10px;
+}
+.placecard{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    justify-content: space-between;  
+}
+.allplaces{
+    display: flex;
+    gap:10px
+    
+}
+
+
+.getapp{
+    display: flex;
+    width: 400px;
+    width: 750px;
+    margin: 10% 25%;
+    align-items: center;
+
+}
+.zomatoappimage{
+    width: 250px;
+    margin-top: 100px;
+    margin-right: 20px;
+}
+.zomatoappimage img{
+    width: 100%;
+
+}
+.zomatoappdetails h1{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.zomatoappdetails p{
+    font-size: 17px;
+}
+.zoamtoappinput{
+    display: flex;
+    height: 45px;
+    margin: 20px 0px;
+}
+.inputcontainer{
+    height: 100%;
+}
+.inputcontainer input{
+    height: 100%;
+    width: 100%;
+    min-width: 280px;
+    max-width: 300px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius:5px;
+    padding: 5px;
+    font-size: 18px;
+}
+.zomatoappbtn{
+    color: white;
+    background-color:  rgb(241, 84, 84);
+    width: 150px;
+    border: none;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.zomatoappradiobtn{
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.download{
+    display: flex;
+}
+.download img{
+    width: 100%;
+    margin-right: 20px;
+    max-width: 120px;
+}
+.app{
+    font-size: 12px;
+    color: #ccc;
+
+}
+
+
+.explore{
+    margin: 0 10%;
+}
+.explore h1{
+   font-size: 30px; 
+   color: rgb(57, 54, 54);
+}
+.listexploreheading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    border-radius:5px ;
+    padding: 0 25px;
+    margin-bottom: 15px;
+}
+.listexploreheading h2{
+    font-weight: 80;
+    font-size: 20px;
+}
+
+
+
+.foot{
+    margin: 85px 10%;
+    padding-top: 30px;
+}
+.flagimage{
+    width: 20px;
+    height: 17px;
+}
+.flagimage img{
+    width: 100%;
+    height: 100%;
+}
+.footerop{
+    display: flex;
+    width: 100px;
+    height: 37px;
+    margin-left: 10px;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+}
+.footerop select{
+    width: 90px;
+    background-color: rgb(246, 245, 245);
+    border: none;
+}
+.langcon{
+    display: flex;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logof{
+    width: 150px ;
+}
+.logof img{
+    width: 100%;
+}
+
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.downloadapp{
+    display: block;
+    width: 110px;
+}
+.downloadapp img{
+    width: 100%;
+}
+.footer-menu ul{
+    padding: 0;
+    list-style: none;
+}
+.footer-menu h3{
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+.footer-menu a{
+    color:#696969;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 1.5;
+}
+.icon{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.line{
+    padding: 0;
+}
+.box{
+    background-color:rgb(246, 245, 245);
+    width: 100%;
+}
